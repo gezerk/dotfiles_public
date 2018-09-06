@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Use the last commit message and amend your stuffs.
+# CAuse this is HoW wE dOit!
+
+git commit --amend -C HEAD
