@@ -1,7 +1,7 @@
 [include]
     path = /Users/gsimpson/.gitconfig_local
 [core]
-    excludesfile = /Users/dannyt/.gitignore_global
+    excludesfile = /Users/gsimpson/.gitignore_global
     pager = "diff-so-fancy | less --tabs=4 -RFX"
 [diff-so-fancy]
     markEmptyLines = false
