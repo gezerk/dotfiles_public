@@ -11,5 +11,3 @@ alias cd..="cd .."
 alias top="top -o cpu"
 
 alias tf="tail -f"
-
-alias across="sudo ls && sudo /usr/local/sbin/acrossd&"
