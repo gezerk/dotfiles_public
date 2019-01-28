@@ -12,7 +12,7 @@ alias top="top -o cpu"
 
 alias tf="tail -f"
 
-alias as='aliasSearch'
+alias sa='aliasSearch'
 
 alias tf="colourify tail -f"
 
