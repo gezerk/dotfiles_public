@@ -14,6 +14,10 @@ alias tf="tail -f"
 
 alias sa='aliasSearch'
 
+alias sh='historySearch'
+
+alias mcd='makeAndChangeToDir'
+
 alias tf="colourify tail -f"
 
 alias psg="colourify ps aux | grep -v grep | grep -i -e VSZ -e"
