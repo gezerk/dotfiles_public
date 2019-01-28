@@ -10,15 +10,15 @@ alias cd..="cd .."
 # sort top by CPU by default
 alias top="top -o cpu"
 
-alias tf="tail -f"
+alias sa='search_aliases'
 
-alias sa='aliasSearch'
+alias sh='search_history'
 
-alias sh='historySearch'
-
-alias mcd='makeAndChangeToDir'
+alias mcd='make_dir_and_cd'
 
 alias tf="colourify tail -f"
+
+alias tfm="tail -f"
 
 alias psg="colourify ps aux | grep -v grep | grep -i -e VSZ -e"
 
