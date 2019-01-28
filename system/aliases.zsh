@@ -13,3 +13,15 @@ alias top="top -o cpu"
 alias tf="tail -f"
 
 alias as='aliasSearch'
+
+alias tf="colourify tail -f"
+
+alias psg="colourify ps aux | grep -v grep | grep -i -e VSZ -e"
+
+alias df="colourify df -ha"
+
+alias ps="colourify ps aux"
+
+alias psg="colourify ps aux | grep -v grep | grep -i -e VSZ -e"
+
+alias fhere="find . -name "
