@@ -10,6 +10,8 @@ alias cd..="cd .."
 # sort top by CPU by default
 alias top="top -o cpu"
 
+alias bp='bad_port'
+
 alias sa='search_aliases'
 
 alias sh='search_history'
@@ -29,3 +31,4 @@ alias ps="colourify ps aux"
 alias psg="colourify ps aux | grep -v grep | grep -i -e VSZ -e"
 
 alias fhere="find . -name "
+

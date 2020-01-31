@@ -10,3 +10,7 @@ function make_dir_and_cd() {
     mkdir -p $1
     cd $1
 }
+
+function bad_port() {
+    lsof -nP -i4TCP:$1 | grep LISTEN
+}
